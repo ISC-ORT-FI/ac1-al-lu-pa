@@ -17,11 +17,14 @@ El resultado debe ser la web de "Caffé" visualizada desde la url del LoadBalanc
 
 ![caffe img](./img/caffe.png)
 
+_Trabajo actuacion en clase_
 
 Lucas Pereyra / Alexander Ortega / Pablo Gonzalez
 
-SG cambio al ac1-lb-sg
-Se cambió el ingress del 88 al 80
-En la isntancia le agregamos la subnet
-Cambiamos el archivo del private key
-Se modificó el Route Table (0.0.0.0/0)
+**Solucion**
+
+1. SG cambio al ac1-lb-sg
+2. Se cambió el ingress del 88 al 80
+3. En la isntancia le agregamos la subnet
+4. Cambiamos el archivo del private key
+5. Se modificó el Route Table (0.0.0.0/0)
