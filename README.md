@@ -16,3 +16,12 @@ Encontrar los errores en el código de Terraform y corregirlos. El código despl
 El resultado debe ser la web de "Caffé" visualizada desde la url del LoadBalancer obtenida del OUTPUT. 
 
 ![caffe img](./img/caffe.png)
+
+
+Lucas Pereyra / Alexander Ortega / Pablo Gonzalez
+
+SG cambio al ac1-lb-sg
+Se cambió el ingress del 88 al 80
+En la isntancia le agregamos la subnet
+Cambiamos el archivo del private key
+Se modificó el Route Table (0.0.0.0/0)
